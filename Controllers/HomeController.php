@@ -1,14 +1,13 @@
 <?php
 
-require_once __DIR__ . '/../Models/Task.php';
 require_once __DIR__ . '/../Models/Users.php';
 require_once __DIR__ . '/../Models/Products.php';
 
 class HomeController {
     public function home() {
         // require_once __DIR__ . '/../views/home.php';
-        $result = Task::getAll();
-        view('home', $result);
+        
+        view('home');
     }
 
     public function about() {
