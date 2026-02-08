@@ -1,7 +1,12 @@
-<?php
+<?php require_once __DIR__ . '/partial/header.php';
+
+
 include_once __DIR__ . '/partial/navigation.php';
 
-echo '<pre>';
-print_r($data); // Debugging purpose
-echo '</pre>';
-?>
+include_once __DIR__ . '/ui/buttonCreateUsers.php';
+
+
+require_once __DIR__ . '/partial/tablesUsers.php';
+
+
+require_once __DIR__ . '/partial/footer.php';

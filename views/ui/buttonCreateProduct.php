@@ -1,0 +1,1 @@
+<a href="/product/create" class="btn btn-primary mt-5">Create Product</a>
