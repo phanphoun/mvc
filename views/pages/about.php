@@ -1,6 +1,8 @@
-<?php
-include_once __DIR__ . '/partial/navigation.php';
 
+<?php include_once __DIR__ . '/../partial/header.php'; ?>
+<?php include_once __DIR__ . '/../partial/navigation.php'; ?>
+
+<?php
 if ($data && count($data) > 0) {
     echo '<table border="1" style="border-collapse: collapse; width: 100%; margin-top: 20px;">';
     echo '<thead><tr>';
@@ -25,5 +27,5 @@ if ($data && count($data) > 0) {
 } else {
     echo '<p style="margin-top: 20px;">No users found in the database.</p>';
 }
-
-
+?>
+<?php include_once __DIR__ . '/../partial/footer.php'; ?>
