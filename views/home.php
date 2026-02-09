@@ -1,10 +1,17 @@
+
+
 <?php
-require_once __DIR__ . '/partial/header.php';
 include_once __DIR__ . '/partial/navigation.php';
 
-include_once __DIR__ . '/ui/buttonCreateProduct.php';
-
-require_once __DIR__ . '/partial/tablesProducts.php';
-require_once __DIR__ . '/partial/footer.php';
 
 ?>
+
+<h1>Welcome to Home Page!</h1>
+
+<?php if ($data): ?>
+    <h2>Task: <?php echo $data['title']; ?></h2>
+    <p>Description: <?php echo $data['description']; ?></p>
+    <p>Status: <?php echo $data['status']; ?></p>
+<?php else: ?>
+    <p>No tasks found.</p>
+<?php endif; ?>

@@ -1,1 +1,0 @@
-<a href="/user/create" class="btn btn-primary mt-5">Create User</a>
