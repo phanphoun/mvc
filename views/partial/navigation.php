@@ -2,8 +2,8 @@
 
     <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-        <li class="nav-item"><a class="nav-link " href="/about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link " href="/getUsers">Users</a></li>
+        <li class="nav-item"><a class="nav-link" href="/getProducts">Products</a></li>
     </ul>
 
     <div class="d-flex">

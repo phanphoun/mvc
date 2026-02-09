@@ -5,9 +5,9 @@
 
  require_once __DIR__ . '/../Models/Users.php'; 
 
- class AboutController{
-     public function about() {
+ class UserController{
+     public function getUsers() {
         $result = Users::getAll();
-        view('pages/about', $result);
+        view('users/getUsers', $result);
     }
  }
